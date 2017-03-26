@@ -1,0 +1,26 @@
+{
+  "name": "client-atuo-update-sample",
+  "version": "1.0.1",
+  "description": "clientAutoUpdateSample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrevorVonSeggern/clientAutoUpdateSample.git"
+  },
+  "author": "Trevor Von Seggern",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TrevorVonSeggern/clientAutoUpdateSample/issues"
+  },
+  "homepage": "https://github.com/TrevorVonSeggern/clientAutoUpdateSample#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "typescript": "^2.2.1"
+  }
+}
