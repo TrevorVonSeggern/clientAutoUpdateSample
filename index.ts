@@ -5,7 +5,7 @@ import * as fs from 'fs';
 let express = e();
 
 express.get('', function (req, res) {
-	let version = JSON.parse(fs.readFileSync('./package.json', 'utf8'))['version'];
+	let version = JSON.parse(fs.readFileSync(__dirname + '/package.json', 'utf8'))['version'];
 	res.json({message: 'here...', version: version});
 });
 

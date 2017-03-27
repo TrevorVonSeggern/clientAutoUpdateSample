@@ -5,7 +5,7 @@ var e = require("express");
 var fs = require("fs");
 var express = e();
 express.get('', function (req, res) {
-    var version = JSON.parse(fs.readFileSync('./package.json', 'utf8'))['version'];
+    var version = JSON.parse(fs.readFileSync(__dirname + '/package.json', 'utf8'))['version'];
     res.json({ message: 'here...', version: version });
 });
 express.listen(3000);
