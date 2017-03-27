@@ -1,6 +1,6 @@
 {
   "name": "client-atuo-update-sample",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "clientAutoUpdateSample",
   "main": "index.js",
   "scripts": {
